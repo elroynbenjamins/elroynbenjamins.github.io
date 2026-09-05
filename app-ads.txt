@@ -1,3 +1,1 @@
-# Replace the line below with the EXACT app-ads.txt line shown in your AdMob account.
-# Example:
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-2222059903000796, DIRECT, f08c47fec0942fa0

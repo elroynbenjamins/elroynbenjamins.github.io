@@ -1,19 +1,15 @@
-# Elroy Benjamins GitHub Pages
+# Complete GitHub Pages package — v3
 
-Upload the CONTENTS of this folder to the repository named:
+This version explicitly states that BOTH:
+- Life Empire
+- Rising Guildmaster
 
-    elroybenjamins.github.io
+have in-app purchases and a permanent Remove Ads purchase.
 
-Important:
-1. Rename your current repository if it is named `.github.io`.
-2. Put your exact AdMob app-ads.txt line in `app-ads.txt`.
-3. In GitHub: Settings > Pages > Deploy from a branch > main > /(root).
-4. Your site should then be available at:
-   https://elroybenjamins.github.io/
-5. Your app-ads.txt should be:
-   https://elroybenjamins.github.io/app-ads.txt
-6. Your Rising Guildmaster privacy policy should be:
-   https://elroybenjamins.github.io/rising-guildmaster/privacy/
+Upload/replace these files in the root of your `elroynbenjamins.github.io` repository.
 
-The privacy policy is a starter template. Review it if you later add accounts,
-analytics, cloud saves, crash reporting, purchases, multiplayer, or other services.
+URLs:
+https://elroynbenjamins.github.io/
+https://elroynbenjamins.github.io/app-ads.txt
+https://elroynbenjamins.github.io/life-empire/privacy/
+https://elroynbenjamins.github.io/rising-guildmaster/privacy/
