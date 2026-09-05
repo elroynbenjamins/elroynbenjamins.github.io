@@ -1,0 +1,151 @@
+*{box-sizing:border-box}
+:root{
+  --bg:#0b0b0b;
+  --surface:#181818;
+  --surface-2:#1d1d1d;
+  --border:#303030;
+  --text:#f4f4f4;
+  --muted:#8f8f8f;
+  --green:#11c48b;
+  --green-soft:#21c997;
+  --orange:#e9a33a;
+  --danger:#ff5555;
+  --purple:#8c62e8;
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif
+}
+html{background:var(--bg)}
+body{
+  margin:0;
+  color:var(--text);
+  background:
+    radial-gradient(circle at 80% 0%, rgba(39,31,60,.28), transparent 28rem),
+    var(--bg);
+  min-height:100vh;
+}
+.page-shell{
+  width:min(760px,calc(100% - 28px));
+  margin:0 auto;
+  padding:34px 0 48px;
+}
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:10px 2px 22px;
+}
+.eyebrow{
+  margin:0 0 5px;
+  color:var(--muted);
+  font-weight:800;
+  letter-spacing:.12em;
+  font-size:.78rem;
+}
+h1{
+  margin:0;
+  font-size:clamp(2rem,7vw,3.2rem);
+  line-height:1.04;
+  letter-spacing:-.04em;
+}
+.gem-pill{
+  flex:none;
+  background:#1f1734;
+  color:var(--purple);
+  border-radius:18px;
+  padding:10px 15px;
+  font-size:1.05rem;
+  font-weight:800;
+  box-shadow:inset 0 0 0 1px rgba(140,98,232,.09);
+}
+.status-row{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  color:var(--muted);
+  padding:15px 0 22px;
+  border-bottom:1px solid #292929;
+  font-size:.95rem;
+}
+.status-accent{
+  color:var(--green-soft);
+  font-weight:700;
+}
+.notice-card,
+.policy-card{
+  background:linear-gradient(180deg,var(--surface-2),var(--surface));
+  border:1px solid var(--border);
+  border-radius:22px;
+  box-shadow:0 10px 28px rgba(0,0,0,.24);
+}
+.notice-card{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+  margin:28px 0 22px;
+  padding:20px 22px;
+}
+.notice-icon{
+  color:var(--orange);
+  font-size:1.7rem;
+  line-height:1;
+}
+.notice-card strong{
+  color:var(--orange);
+  font-size:1.05rem;
+}
+.notice-card p{
+  margin:.35rem 0 0;
+}
+.policy-card{
+  padding:24px;
+  margin:18px 0;
+}
+.policy-card h2{
+  margin:0 0 14px;
+  font-size:1.28rem;
+  letter-spacing:-.02em;
+}
+.policy-card h2::after{
+  content:"";
+  display:block;
+  width:34px;
+  height:3px;
+  margin-top:10px;
+  border-radius:99px;
+  background:var(--green);
+}
+p{
+  color:var(--muted);
+  line-height:1.72;
+  margin:.7rem 0;
+}
+.home-button{
+  display:block;
+  text-align:center;
+  margin-top:24px;
+  padding:17px 20px;
+  border-radius:18px;
+  background:var(--green);
+  color:#fff;
+  text-decoration:none;
+  font-weight:850;
+  font-size:1.05rem;
+  box-shadow:inset 0 -2px 0 rgba(0,0,0,.13);
+}
+.home-button:hover{filter:brightness(1.05)}
+footer{
+  text-align:center;
+  padding-top:24px;
+}
+footer p{
+  font-size:.85rem;
+  color:#666;
+}
+@media (max-width:520px){
+  .page-shell{width:min(100% - 24px,760px);padding-top:22px}
+  .topbar{align-items:flex-start}
+  .gem-pill{font-size:.92rem;padding:9px 12px}
+  .policy-card{padding:20px;border-radius:19px}
+  .notice-card{border-radius:19px}
+  .status-row{font-size:.88rem}
+}
