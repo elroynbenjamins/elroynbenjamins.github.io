@@ -1,15 +1,23 @@
-# Complete GitHub Pages package — v3
+# Complete GitHub Pages package — v4
 
-This version explicitly states that BOTH:
-- Life Empire
+Includes privacy pages for:
 - Rising Guildmaster
+- Life Empire
+- VELDRYN
+- The Monster Exchange
 
-have in-app purchases and a permanent Remove Ads purchase.
+Purchase/advertising setup:
+- Rising Guildmaster: in-app purchases + permanent Remove Ads purchase + advertising
+- Life Empire: in-app purchases + permanent Remove Ads purchase + advertising
+- The Monster Exchange: in-app purchases + permanent Remove Ads purchase + advertising
+- VELDRYN: online multiplayer game + in-app purchases + NO advertising
 
-Upload/replace these files in the root of your `elroynbenjamins.github.io` repository.
+Your existing app-ads.txt remains at the root for the ad-supported apps.
 
 URLs:
 https://elroynbenjamins.github.io/
 https://elroynbenjamins.github.io/app-ads.txt
-https://elroynbenjamins.github.io/life-empire/privacy/
 https://elroynbenjamins.github.io/rising-guildmaster/privacy/
+https://elroynbenjamins.github.io/life-empire/privacy/
+https://elroynbenjamins.github.io/veldryn/privacy/
+https://elroynbenjamins.github.io/the-monster-exchange/privacy/
