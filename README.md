@@ -5,3 +5,4 @@ https://elroynbenjamins.github.io/rising-guildmaster/privacy/
 https://elroynbenjamins.github.io/life-empire/privacy/
 https://elroynbenjamins.github.io/veldryn/privacy/
 https://elroynbenjamins.github.io/the-monster-exchange/privacy/
+https://elroynbenjamins.github.io/budora/privacy/
