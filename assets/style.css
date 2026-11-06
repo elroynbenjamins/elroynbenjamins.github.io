@@ -61,3 +61,8 @@ footer{margin-top:54px;color:#7d8590;font-size:.92rem}
 @media(max-width:600px){
   .wrap{width:min(100% - 24px,900px);padding:32px 0 48px}
 }
+
+.legal-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.button-ghost{display:inline-block;color:#f1d397;background:#1c2632;border:1px solid #6b5b41;text-decoration:none;font-weight:700;font-size:.92rem;padding:10px 13px;border-radius:10px}
+.button-ghost:hover{background:#29394a;border-color:#e6b95c}
+footer a{color:#e6b95c;text-underline-offset:3px}
